@@ -6109,7 +6109,7 @@ local aa = {
         end
 
         if af["Blood Red"] then
-            af["Blood Red"].Background = "rbxassetid://104590860537355"
+            af["Blood Red"].Background = "rbxassetid://121343473918667"
             af["Blood Red"].BackgroundTransparency = 0.15
             af["Blood Red"].ThemeAccentColors = { Color3.fromRGB(180, 10, 20) }
         end
