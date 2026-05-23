@@ -148,7 +148,7 @@ local aa = {
         t:Init(_nw)
         local x = {
             Version = "1.3.0",
-            Name = "BetterFluent",
+            Name = "PR SELLS",
             OpenFrames = {},
             Options = {},
             Themes = e(o.Themes).Names,
@@ -618,7 +618,7 @@ local aa = {
 
         local InterfaceManager = {}
         InterfaceManager.Folder = "FluentSettings"
-        InterfaceManager.Settings = { Theme="Blood Red", Acrylic=true, Transparency=true, Animated=true, MenuKeybind="LeftControl", Font="GothamSSm", DisableBG=false }
+        InterfaceManager.Settings = { Theme="Blood Red", Acrylic=false, Transparency=false, Animated=false, MenuKeybind="LeftControl", Font="RobotoMono", DisableBG=false }
         function InterfaceManager:SetFolder(folder) self.Folder=folder; self:BuildFolderTree() end
         function InterfaceManager:SetLibrary(lib) self.Library=lib end
         function InterfaceManager:BuildFolderTree()
@@ -863,7 +863,7 @@ local aa = {
         x.FloatingButtonManager = FloatingButtonManager
 
         local _MM = {}
-        _MM.Folder = "BetterFluentCache"
+        _MM.Folder = "PRSELLSCache"
 
         function _MM:SetFolder(f)
             self.Folder = f
