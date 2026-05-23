@@ -180,13 +180,13 @@ local aa = {
                 _sg.Parent = (_lp and _lp:FindFirstChildOfClass("PlayerGui")) or game:GetService("CoreGui")
                 local _fr = Instance.new("Frame")
                 _fr.Size = UDim2.fromOffset(310, 76)
-                _fr.Position = UDim2.new(1, 320, 0, 24)
+                _fr.Position = UDim2.new(1, -320, 0, 24)
                 _fr.BackgroundColor3 = Color3.fromRGB(18, 6, 6)
                 _fr.BorderSizePixel = 0
                 _fr.Parent = _sg
                 Instance.new("UICorner", _fr).CornerRadius = UDim.new(0, 8)
                 local _stroke = Instance.new("UIStroke", _fr)
-                _stroke.Color = Color3.fromRGB(220, 55, 55)
+                _stroke.Color = Color3.fromRGB(0, 0, 0)
                 _stroke.Thickness = 1.5
                 local _stripe = Instance.new("Frame", _fr)
                 _stripe.Size = UDim2.new(0, 3, 1, -14)
@@ -2597,7 +2597,7 @@ local aa = {
                 local _bot = s("Frame",{
                     Name="UserInfo",
                     Size=UDim2.new(1,0,0,_h2),
-                    Position=UDim2.new(0,0,-41,-_h2),
+                    Position=UDim2.new(0,0,-1,-_h2),
                     BackgroundTransparency=0.78,
                     ThemeTag={BackgroundColor3="Element"},
                 },{
