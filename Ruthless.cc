@@ -114,7 +114,7 @@ pcall(function()
     if _fn then Animation = _fn() end
 end)
 if not Animation then Animation = {Apply = function() end} end
-getgenv().ShineEnabled = true
+getgenv().ShineEnabled = false
 getgenv().ButtonGradients = {
     Background = ColorSequence.new {
         ColorSequenceKeypoint.new(0, Color3.fromRGB(7, 42, 82)),
@@ -8014,13 +8014,13 @@ local aa = {
         local aa, ab, ac, ad, ae = b(52)
         return {
             Name = "Blood Red",
-            Accent = Color3.fromRGB(180, 10, 20),
-            AcrylicMain = Color3.fromRGB(35, 8, 10),
-            AcrylicBorder = Color3.fromRGB(140, 15, 25),
+            Accent = Color3.fromRGB(0, 0, 0),
+            AcrylicMain = Color3.fromRGB(0, 0, 0),
+            AcrylicBorder = Color3.fromRGB(0, 0, 0),
             AcrylicGradient = ColorSequence.new(Color3.fromRGB(130, 12, 20), Color3.fromRGB(28, 5, 8)),
             AcrylicNoise = 0.9,
-            TitleBarLine = Color3.fromRGB(155, 18, 28),
-            Tab = Color3.fromRGB(145, 15, 25),
+            TitleBarLine = Color3.fromRGB(0, 0, 0),
+            Tab = Color3.fromRGB(0, 0, 0),
             Element = Color3.fromRGB(130, 12, 22),
             ElementBorder = Color3.fromRGB(85, 8, 14),
             InElementBorder = Color3.fromRGB(150, 18, 28),
