@@ -2597,7 +2597,7 @@ local aa = {
                 local _bot = s("Frame",{
                     Name="UserInfo",
                     Size=UDim2.new(1,0,0,_h2),
-                    Position=UDim2.new(0,0,1,-_h2),
+                    Position=UDim2.new(0,0,1,-120),
                     BackgroundTransparency=0.78,
                     ThemeTag={BackgroundColor3="Element"},
                 },{
