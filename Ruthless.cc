@@ -1167,7 +1167,7 @@ local aa = {
                     j(
                         "ImageLabel",
                         {
-                            Image = "rbxassetid://123622005460423",
+                            Image = "rbxassetid://8992230677",
                             ScaleType = "Slice",
                             SliceCenter = Rect.new(Vector2.new(99, 99), Vector2.new(99, 99)),
                             AnchorPoint = Vector2.new(0.5, 0.5),
@@ -7512,7 +7512,7 @@ local aa = {
         end
 
         if af["Blood Red"] then
-            af["Blood Red"].Background = "rbxassetid://137684466177654"
+            af["Blood Red"].Background = "rbxassetid://121343473918667"
             af["Blood Red"].BackgroundTransparency = 0.15
             af["Blood Red"].ThemeAccentColors = { Color3.fromRGB(180, 10, 20) }
         end
