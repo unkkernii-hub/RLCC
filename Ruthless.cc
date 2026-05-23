@@ -8061,7 +8061,7 @@ local aa = {
                 )
             },
             StrokeShine = getgenv().ShineEnabled,
-            StrokeDark = Color3.fromRGB(145, 15, 25),
+            StrokeDark = Color3.fromRGB(0, 0, 0),
             ButtonGradient = {
                 Background = ColorSequence.new(
                     {
