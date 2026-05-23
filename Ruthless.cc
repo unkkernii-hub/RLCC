@@ -114,7 +114,7 @@ pcall(function()
     if _fn then Animation = _fn() end
 end)
 if not Animation then Animation = {Apply = function() end} end
-getgenv().ShineEnabled = false
+getgenv().ShineEnabled = true
 getgenv().ButtonGradients = {
     Background = ColorSequence.new {
         ColorSequenceKeypoint.new(0, Color3.fromRGB(7, 42, 82)),
@@ -148,14 +148,14 @@ local aa = {
         t:Init(_nw)
         local x = {
             Version = "1.3.0",
-            Name = "PR SELLS",
+            Name = "BetterFluent",
             OpenFrames = {},
             Options = {},
             Themes = e(o.Themes).Names,
             Window = nil,
             WindowFrame = nil,
             Unloaded = false,
-            Theme = "Blood Red",
+            Theme = "AMOLED",
             FischBypass = (game and game.GameId == 5750914919) or false,
             DialogOpen = false,
             UseAcrylic = false,
@@ -618,7 +618,7 @@ local aa = {
 
         local InterfaceManager = {}
         InterfaceManager.Folder = "FluentSettings"
-        InterfaceManager.Settings = { Theme="Blood Red", Acrylic=false, Transparency=false, Animated=false, MenuKeybind="LeftControl", Font="RobotoMono", DisableBG=false }
+        InterfaceManager.Settings = { Theme="Blood Red", Acrylic=true, Transparency=true, Animated=true, MenuKeybind="LeftControl", Font="GothamSSm", DisableBG=false }
         function InterfaceManager:SetFolder(folder) self.Folder=folder; self:BuildFolderTree() end
         function InterfaceManager:SetLibrary(lib) self.Library=lib end
         function InterfaceManager:BuildFolderTree()
@@ -863,7 +863,7 @@ local aa = {
         x.FloatingButtonManager = FloatingButtonManager
 
         local _MM = {}
-        _MM.Folder = "PRSELLSCache"
+        _MM.Folder = "BetterFluentCache"
 
         function _MM:SetFolder(f)
             self.Folder = f
@@ -7512,7 +7512,7 @@ local aa = {
         end
 
         if af["Blood Red"] then
-            af["Blood Red"].Background = "rbxassetid://103016127144961"
+            af["Blood Red"].Background = "rbxassetid://121343473918667"
             af["Blood Red"].BackgroundTransparency = 0.15
             af["Blood Red"].ThemeAccentColors = { Color3.fromRGB(180, 10, 20) }
         end
@@ -7799,7 +7799,7 @@ local aa = {
                     }
                 )
             },
-            Background = "rbxassetid://129917281031460",
+            Background = "rbxassetid://136310484943077",
             BackgroundTransparency = 0.15,
         }
     end,
@@ -8014,19 +8014,19 @@ local aa = {
         local aa, ab, ac, ad, ae = b(52)
         return {
             Name = "Blood Red",
-            Accent = Color3.fromRGB(0, 0, 0),
-            AcrylicMain = Color3.fromRGB(0, 0, 0),
-            AcrylicBorder = Color3.fromRGB(, 0, 0),
-            AcrylicGradient = ColorSequence.new(Color3.fromRGB(0, 0, 0), Color3.fromRGB(0, 0, 0)),
+            Accent = Color3.fromRGB(180, 10, 20),
+            AcrylicMain = Color3.fromRGB(35, 8, 10),
+            AcrylicBorder = Color3.fromRGB(140, 15, 25),
+            AcrylicGradient = ColorSequence.new(Color3.fromRGB(130, 12, 20), Color3.fromRGB(28, 5, 8)),
             AcrylicNoise = 0.9,
-            TitleBarLine = Color3.fromRGB(0, 0, 0),
-            Tab = Color3.fromRGB(0, 0, 0),
-            Element = Color3.fromRGB(0, 0, 0),
-            ElementBorder = Color3.fromRGB(0, 0, 0),
+            TitleBarLine = Color3.fromRGB(155, 18, 28),
+            Tab = Color3.fromRGB(145, 15, 25),
+            Element = Color3.fromRGB(130, 12, 22),
+            ElementBorder = Color3.fromRGB(85, 8, 14),
             InElementBorder = Color3.fromRGB(150, 18, 28),
             ElementTransparency = 0.9,
-            ToggleSlider = Color3.fromRGB(25, 25, 25),
-            ToggleToggled = Color3.fromRGB(15, 15, 15),
+            ToggleSlider = Color3.fromRGB(180, 10, 20),
+            ToggleToggled = Color3.fromRGB(255, 230, 230),
             SliderRail = Color3.fromRGB(145, 15, 25),
             DropdownFrame = Color3.fromRGB(115, 10, 18),
             DropdownHolder = Color3.fromRGB(28, 5, 8),
