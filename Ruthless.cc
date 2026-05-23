@@ -8014,8 +8014,8 @@ local aa = {
         local aa, ab, ac, ad, ae = b(52)
         return {
             Name = "Blood Red",
-            Accent = Color3.fromRGB(180, 10, 20),
-            AcrylicMain = Color3.fromRGB(35, 8, 10),
+            Accent = Color3.fromRGB(0, 0, 0),
+            AcrylicMain = Color3.fromRGB(0, 0, 0),
             AcrylicBorder = Color3.fromRGB(140, 15, 25),
             AcrylicGradient = ColorSequence.new(Color3.fromRGB(130, 12, 20), Color3.fromRGB(28, 5, 8)),
             AcrylicNoise = 0.9,
