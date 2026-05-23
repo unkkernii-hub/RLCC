@@ -155,7 +155,7 @@ local aa = {
             Window = nil,
             WindowFrame = nil,
             Unloaded = false,
-            Theme = "AMOLED",
+            Theme = "Blood Red",
             FischBypass = (game and game.GameId == 5750914919) or false,
             DialogOpen = false,
             UseAcrylic = false,
